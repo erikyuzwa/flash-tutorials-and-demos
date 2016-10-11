@@ -31,14 +31,7 @@ package {
         public function init(): void {
 
             var themeSound:Sound = new AudioClass() as Sound; 
-            themeSound.play(); 
-        	
-
+            themeSound.play();
         }
-
-        
-
     }
-
-
 }

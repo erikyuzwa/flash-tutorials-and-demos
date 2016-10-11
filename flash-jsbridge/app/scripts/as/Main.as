@@ -15,7 +15,6 @@ package {
 
             	this.addEventListener(Event.ADDED_TO_STAGE, this.onAddedToStage);
             }
-            
         }
 
         private function onAddedToStage(): void {
@@ -48,7 +47,7 @@ package {
                 href: this.root.loaderInfo.url,
                 protocol: this.root.loaderInfo.url.split("://")[0],
                 pathname: this.root.loaderInfo.url.split("://")[1]
-            }
+            };
 
             // append our domain once we have our pathname sorted out
             locationObj.domain = locationObj.pathname.split(":")[0];
@@ -78,9 +77,5 @@ package {
 
             return isAuthorized;
         }
-
-
     }
-
-
 }

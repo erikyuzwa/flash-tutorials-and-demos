@@ -7,8 +7,6 @@ package {
     public class Bridge {
   
         public function Bridge() {
-
-            
         }
 
         public static function logjs(...args): void {
@@ -40,10 +38,5 @@ package {
         		}
         	}
         }
-
-       
-
     }
-
-
 }

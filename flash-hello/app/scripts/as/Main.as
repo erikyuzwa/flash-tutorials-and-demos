@@ -15,7 +15,6 @@ package {
             if (this.stage) {
             	this.init();
             } else {
-
             	this.addEventListener(Event.ADDED_TO_STAGE, this.onAddedToStage);
             }
             
@@ -30,7 +29,8 @@ package {
 
         	var myFormat:TextFormat = new TextFormat();
 			myFormat.size = 15;
-			myFormat.align = TextFormatAlign.CENTER;
+			myFormat.align = TextFormatAlign.LEFT;
+          myFormat.color = 0xeeee00;
 
         	var myText:TextField = new TextField();
         	myText.defaultTextFormat = myFormat;
@@ -38,10 +38,5 @@ package {
 			addChild(myText);
 
         }
-
-        
-
     }
-
-
 }

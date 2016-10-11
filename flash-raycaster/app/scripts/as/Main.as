@@ -105,9 +105,6 @@ package {
             
             buffer.copyPixels( engine, bounds, origin );
         }
-
-
     }
-
-
 }
+

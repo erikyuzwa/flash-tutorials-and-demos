@@ -36,8 +36,8 @@ package {
 
         	var myFormat:TextFormat = new TextFormat();
 			myFormat.size = 15;
-			myFormat.align = TextFormatAlign.CENTER;
-            myFormat.color = 0xffff00;
+			myFormat.align = TextFormatAlign.LEFT;
+            myFormat.color = 0xeeee00;
 
         	this.mouseData = new TextField();
         	this.mouseData.defaultTextFormat = myFormat;
@@ -71,10 +71,6 @@ package {
         public function onMouseMove(event:MouseEvent):void {
 
             this.mouseData.text = "mouse [localX:" + event.localX + ", localY:" + event.localY + ", stageX:" + event.stageX + ", stageY:" + event.stageY + "]";
-
         }
-
     }
-
-
 }

@@ -37,10 +37,5 @@ package {
             this.addChild(wallTile);
 
         }
-
-        
-
     }
-
-
 }
