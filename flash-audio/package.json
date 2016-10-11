@@ -1,0 +1,23 @@
+{
+  "name": "flash-audio",
+  "version": "0.0.1",
+  "description": "a small AS3 skeleton that plays some audio",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt"
+  },
+  "author": "erik@erikyuzwa.com",
+  "license": "ISC",
+  "devDependencies": {
+    "flex-sdk": "^4.6.0-0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mxmlc": "^0.5.3"
+  }
+}
